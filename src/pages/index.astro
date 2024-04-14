@@ -1,15 +1,14 @@
 ---
+import Portada from '../components/inicio/Portada.astro';
+import Productos from '../components/inicio/Productos.astro';
 import Layout from '../layouts/Layout.astro';
 
 ---
 
 <Layout title="">
-	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
+	<main class="w-full flex flex-col justify-center">
+		<Portada />
+		<Productos />
 		
 	</main>
 </Layout>
