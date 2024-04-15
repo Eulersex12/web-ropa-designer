@@ -3,15 +3,15 @@ import BotonOne from "../botones/BotonOne.astro";
 
 ---
 <div class="w-full h-[500px] overflow-hidden bg-[rgb(240,238,239)]">
-    <div class="w-4/5 mx-auto flex">
-        <div class="w-5/12 flex justify-end items-center">
-            <img class="object-contain w-[50%]" src="/images/right.png" alt="">
+    <div class="md:w-4/5 md:mx-auto flex pt-8">
+        <div class="md:w-5/12 w-5/12 md:flex md:justify-end md:items-center">
+            <img class="object-contain md:w-[50%] w-[75%] ml-8" src="/images/right.png" alt="">
         </div>
-        <div class="w-8/12 flex flex-col justify-center items-start">
-            <div>
-                <h2 class="text-6xl text-center uppercase font-extrabold flex flex-col ">ofertas <span>especiales</span></h2>
-                <h3 class="uppercase font-medium text-center mt-2">estrena las mejores prendas</h3>
-                <div class="w-full flex justify-center mt-4">
+        <div class="md:w-8/12 w-7/12 flex flex-col justify-center items-start">
+            <div class="w-full" >
+                <h2 class="md:text-6xl text-3xl md:text-center uppercase font-extrabold flex flex-col ">ofertas <span>especiales</span></h2>
+                <h3 class="uppercase md:font-medium md:text-center mt-2">estrena las mejores prendas</h3>
+                <div class="w-full flex md:justify-center mt-4">
                     <BotonOne title="Información" />
                 </div>
             </div>
