@@ -1,0 +1,72 @@
+---
+---
+<header class="w-full h-auto bg-[rgb(240,238,239)]">
+    <div class="md:w-4/5 w-10/12 sm:w-4/5 mx-auto h-16  md:mx-auto md:grid md:grid-cols-4 sm:flex flex justify-between">
+        <div class="text-black font-extrabold uppercase text-2xl flex items-center "><span>Logo</span></div>
+        <div class="col-span-2">
+            <nav  class="w-full">
+                <ul class="hidden sm:hidden md:flex w-full items-center">
+                    <li class="w-1/5 h-14 group "><a class="w-full h-full flex justify-center items-center" href="/"><span class="group-hover:border-b-4 border-black uppercase font-bold md:text-black text-sm">inicio</span></a></li>
+                    <li class="w-1/5 h-14 group "><a class="w-full h-full flex  items-center" href="/tienda"><span class="group-hover:border-b-4 border-black uppercase font-bold md:text-black text-sm">tienda</span></a></li>
+                    <li class="w-1/5 h-14 group "><a class="w-full h-full flex justify-center items-center" href="/servicios"><span class="group-hover:border-b-4 border-black uppercase font-bold md:text-black text-sm">servicios</span></a></li>
+                    <li class="w-1/5 h-14 group "><a class="w-full h-full flex justify-center items-center" href="/blog"><span class="group-hover:border-b-4 border-black uppercase font-bold md:text-black text-sm">blog</span></a></li>
+                    <li class="w-1/5 h-14 group "><a class="w-full h-full flex justify-center items-center" href="/contacto"><span class="group-hover:border-b-4 border-black uppercase font-bold md:text-black text-sm">contacto</span></a></li>
+                </ul >
+                <ul id="menu" class="hidden fixed bg-[rgba(0,0,0,0.43)] mt-20 right-[8%] sm:right-[10%] w-52 flex-col justify-between h-44">
+                    <li class="w-full flex justify-center"><a href="/" class="text-white">Inicio</a></li>
+                    <li class="w-full flex justify-center"><a href="/tienda" class="text-white">Tienda</a></li>
+                    <li class="w-full flex justify-center"><a href="/servicios" class="text-white">Servicios</a></li>
+                    <li class="w-full flex justify-center"><a href="/blog" class="text-white">Blog</a></li>
+                    <li class="w-full flex justify-center"><a href="/contacto" class="text-white">Contacto</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        <div class="w-4/12 sm:w-4/12 md:w-full flex justify-end items-center gap-2">
+            <div id="compra" class="w-3/12 bg-slate-400 rounded-lg flex justify-center">
+                <i class="fa-solid fa-cart-shopping text-xl"></i>
+            </div>
+            <div id="barra" class="md:hidden  w-3/12 bg-slate-400 rounded-lg flex justify-center">
+                <i id="canbio" class="fa-solid fa-bars text-xl"></i>
+            </div>
+        </div>
+    </div>
+</header>
+
+<article id="carro" class="fixed top-[96px] bg-[rgba(54,52,53,0.07)] backdrop-blur-sm transition-[right] delay-300 right-[-100%] w-[30%] ">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nisi explicabo dolorum blanditiis sit culpa in perspiciatis asperiores placeat excepturi mollitia tempora aliquid repudiandae dolore officiis molestiae, modi, possimus quod.
+</article>
+
+
+<script>
+    let menu = document.getElementById("menu");
+    let compra = document.getElementById("compra");
+    let barra = document.getElementById("barra");
+    let canbio = document.getElementById("canbio");
+    let carro = document.getElementById("carro")
+
+
+    barra.addEventListener("click", () => {
+        if (menu.classList.contains("hidden")) {
+            menu.classList.remove("hidden");
+            menu.classList.add("flex");
+            canbio.classList.remove("fa-bars");
+            canbio.classList.add("fa-x");
+        } else {
+            menu.classList.remove("flex");
+            menu.classList.add("hidden");
+            canbio.classList.remove("fa-x");
+            canbio.classList.add("fa-bars");
+        }
+    });
+    compra.addEventListener("click", () => {
+        if (carro.classList.contains("right-[-100%]")) {
+            carro.classList.remove("right-[-100%]");
+            carro.classList.add("right-[10%]")
+        } else {
+            carro.classList.remove("right-[10%]");
+            carro.classList.add("right-[-100%]")
+        }
+    })
+
+</script>
