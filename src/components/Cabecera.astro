@@ -1,16 +1,15 @@
 ---
 ---
-<header class="w-full h-auto bg-[rgb(240,238,239)]">
+<header id="cabecera" class="w-full h-auto bg-transparent">
     <div class="md:w-4/5 w-10/12 sm:w-4/5 mx-auto h-16  md:mx-auto md:grid md:grid-cols-4 sm:flex flex justify-between">
         <div class="text-black font-extrabold uppercase text-2xl flex items-center "><span>Logo</span></div>
         <div class="col-span-2">
             <nav  class="w-full">
                 <ul class="hidden sm:hidden md:flex w-full items-center">
-                    <li class="w-1/5 h-14 group "><a class="w-full h-full flex justify-center items-center" href="/"><span class="group-hover:border-b-4 border-black uppercase font-bold md:text-black text-sm">inicio</span></a></li>
-                    <li class="w-1/5 h-14 group "><a class="w-full h-full flex lg:justify-center  items-center" href="/tienda"><span class="group-hover:border-b-4 border-black uppercase font-bold md:text-black text-sm">tienda</span></a></li>
-                    <li class="w-1/5 h-14 group "><a class="w-full h-full flex justify-center items-center" href="/servicios"><span class="group-hover:border-b-4 border-black uppercase font-bold md:text-black text-sm">servicios</span></a></li>
-                    <li class="w-1/5 h-14 group "><a class="w-full h-full flex justify-center items-center" href="/blog"><span class="group-hover:border-b-4 border-black uppercase font-bold md:text-black text-sm">blog</span></a></li>
-                    <li class="w-1/5 h-14 group "><a class="w-full h-full flex justify-center items-center" href="/contacto"><span class="group-hover:border-b-4 border-black uppercase font-bold md:text-black text-sm">contacto</span></a></li>
+                    <li class="w-[25%] h-14 group "><a class="w-full h-full flex justify-center items-center" href="#acerca"><span class="group-hover:border-b-4 border-black font-bold md:text-black text-sm font-monserrat">Acerca de</span></a></li>
+                    <li class="w-[25%] h-14 group "><a class="w-full h-full flex lg:justify-center  items-center" href="#servicios"><span class="group-hover:border-b-4 border-black font-bold md:text-black text-sm font-monserrat">Servicios</span></a></li>
+                    <li class="w-[25%] h-14 group "><a class="w-full h-full flex justify-center items-center" href="#tienda"><span class="group-hover:border-b-4 border-black font-bold md:text-black text-sm">Tienda</span></a></li>
+                    <li class="w-[25%] h-14 group "><a class="w-full h-full flex justify-center items-center" href="#contacto"><span class="group-hover:border-b-4 border-black font-bold md:text-black text-sm">Contacto</span></a></li>
                 </ul >
                 <ul id="menu" class="hidden fixed bg-[rgba(0,0,0,0.43)] mt-20 right-[8%] sm:right-[10%] w-52 flex-col justify-between h-44">
                     <li class="w-full flex justify-center"><a href="/" class="text-white">Inicio</a></li>
@@ -43,7 +42,22 @@
     let compra = document.getElementById("compra");
     let barra = document.getElementById("barra");
     let canbio = document.getElementById("canbio");
-    let carro = document.getElementById("carro")
+    let carro = document.getElementById("carro");
+    
+    window.addEventListener('scroll', function() {
+        var nav = document.getElementById('cabecera');
+        var scrollPos = window.scrollY;
+
+        if (scrollPos > 0) {
+            nav.style.position = 'fixed';
+            nav.style.top = '0';
+            nav.classList.add("bg-white");
+        } else {
+            nav.style.position = 'static';
+            nav.classList.remove("bg-white");
+
+        }
+    });
 
 
     barra.addEventListener("click", () => {
