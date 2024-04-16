@@ -1,0 +1,286 @@
+{
+    "calzadoDama" : [
+        {
+          "id": "1",
+          "title": "Calzado de tacón alto",
+          "precio": "50",
+          "descripcion": "Elegante calzado de tacón alto",
+          "url": "/images/calzado/taco1.png"
+        },
+        {
+          "id": "2",
+          "title": "Zapatos de tacón bajo",
+          "precio": "40",
+          "descripcion": "Cómodos zapatos de tacón bajo",
+          "url": "/images/calzado/taco2.png"
+        },
+        {
+          "id": "3",
+          "title": "Botines de tacón medio",
+          "precio": "60",
+          "descripcion": "Botines de tacón medio para el día a día",
+          "url": "/images/calzado/taco3.png"
+        },
+        {
+          "id": "4",
+          "title": "Sandalia de tacón alto",
+          "precio": "45",
+          "descripcion": "Sandalia de tacón alto para ocasiones especiales",
+          "url": "/images/calzado/taco4.png"
+        },
+        {
+          "id": "5",
+          "title": "Zapatos de tacón alto",
+          "precio": "55",
+          "descripcion": "Zapatos de tacón alto con estilo",
+          "url": "/images/calzado/taco5.png"
+        },
+        {
+          "id": "6",
+          "title": "Botines de tacón alto",
+          "precio": "65",
+          "descripcion": "Botines de tacón alto para lucir elegante",
+          "url": "/images/calzado/taco6.png"
+        },
+        {
+          "id": "7",
+          "title": "Sandalia de tacón bajo",
+          "precio": "35",
+          "descripcion": "Sandalia de tacón bajo para el verano",
+          "url": "/images/calzado/taco7.png"
+        },
+        {
+          "id": "8",
+          "title": "Zapatos de tacón medio",
+          "precio": "50",
+          "descripcion": "Zapatos de tacón medio para ocasiones formales",
+          "url": "/images/calzado/taco8.png"
+        },
+        {
+          "id": "9",
+          "title": "Botas de tacón alto",
+          "precio": "70",
+          "descripcion": "Botas de tacón alto para el invierno",
+          "url": "/images/calzado/taco9.png"
+        },
+        {
+          "id": "10",
+          "title": "Sandalia de tacón alto",
+          "precio": "60",
+          "descripcion": "Sandalia de tacón alto para eventos",
+          "url": "/images/calzado/taco10.png"
+        },
+        {
+          "id": "11",
+          "title": "Zapatos de tacón bajo",
+          "precio": "45",
+          "descripcion": "Zapatos de tacón bajo para el trabajo",
+          "url": "/images/calzado/taco11.png"
+        },
+        {
+          "id": "12",
+          "title": "Botines de tacón medio",
+          "precio": "55",
+          "descripcion": "Botines de tacón medio con estilo",
+          "url": "/images/calzado/taco12.png"
+        },
+        {
+          "id": "13",
+          "title": "Sandalia de tacón alto",
+          "precio": "50",
+          "descripcion": "Sandalia de tacón alto para fiestas",
+          "url": "/images/calzado/taco13.png"
+        },
+        {
+          "id": "14",
+          "title": "Zapatos de tacón alto",
+          "precio": "65",
+          "descripcion": "Zapatos de tacón alto elegantes",
+          "url": "/images/calzado/taco14.png"
+        },
+        {
+          "id": "15",
+          "title": "Botines de tacón alto",
+          "precio": "75",
+          "descripcion": "Botines de tacón alto para ocasiones especiales",
+          "url": "/images/calzado/taco15.png"
+        },
+        {
+          "id": "16",
+          "title": "Sandalia de tacón bajo",
+          "precio": "40",
+          "descripcion": "Sandalia de tacón bajo con estilo",
+          "url": "/images/calzado/taco16.png"
+        },
+        {
+          "id": "17",
+          "title": "Zapatos de tacón medio",
+          "precio": "55",
+          "descripcion": "Zapatos de tacón medio para el trabajo",
+          "url": "/images/calzado/taco17.png"
+        },
+        {
+          "id": "18",
+          "title": "Botas de tacón alto",
+          "precio": "80",
+          "descripcion": "Botas de tacón alto para el invierno",
+          "url": "/images/calzado/taco18.png"
+        },
+        {
+          "id": "19",
+          "title": "Sandalia de tacón alto",
+          "precio": "70",
+          "descripcion": "Sandalia de tacón alto para eventos",
+          "url": "/images/calzado/taco19.png"
+        },
+        {
+          "id": "20",
+          "title": "Zapatos de tacón bajo",
+          "precio": "50",
+          "descripcion": "Zapatos de tacón bajo cómodos",
+          "url": "/images/calzado/taco20.png"
+        }
+      ],
+    "calzadoHombre" : [
+      {
+        "id": "1",
+        "title": "Zapato Elegante",
+        "precio": "100.00",
+        "descripcion": "Zapato de cuero con diseño elegante",
+        "url": "/images/calzados/zapato1.png"
+      },
+      {
+        "id": "2",
+        "title": "Zapatilla Deportiva",
+        "precio": "80.00",
+        "descripcion": "Zapatilla deportiva con suela de goma",
+        "url": "/images/calzados/zapato2.png"
+      },
+      {
+        "id": "3",
+        "title": "Zapato Casual",
+        "precio": "90.00",
+        "descripcion": "Zapato cómodo para uso diario",
+        "url": "/images/calzados/zapato3.png"
+      },
+      {
+        "id": "4",
+        "title": "Zapatilla de Lona",
+        "precio": "60.00",
+        "descripcion": "Zapatilla de lona transpirable",
+        "url": "/images/calzados/zapato4.png"
+      },
+      {
+        "id": "5",
+        "title": "Zapato Formal",
+        "precio": "120.00",
+        "descripcion": "Zapato de vestir para ocasiones formales",
+        "url": "/images/calzados/zapato5.png"
+      },
+      {
+        "id": "6",
+        "title": "Zapatilla de Running",
+        "precio": "95.00",
+        "descripcion": "Zapatilla para correr con tecnología de amortiguación",
+        "url": "/images/calzados/zapato6.png"
+      },
+      {
+        "id": "7",
+        "title": "Zapato de Cuero",
+        "precio": "110.00",
+        "descripcion": "Zapato de cuero genuino de alta calidad",
+        "url": "/images/calzados/zapato7.png"
+      },
+      {
+        "id": "8",
+        "title": "Zapatilla Casual",
+        "precio": "70.00",
+        "descripcion": "Zapatilla cómoda para uso informal",
+        "url": "/images/calzados/zapato8.png"
+      },
+      {
+        "id": "9",
+        "title": "Zapato de Vestir",
+        "precio": "105.00",
+        "descripcion": "Zapato elegante para ocasiones especiales",
+        "url": "/images/calzados/zapato9.png"
+      },
+      {
+        "id": "10",
+        "title": "Zapatilla de Baloncesto",
+        "precio": "75.00",
+        "descripcion": "Zapatilla diseñada para el juego de baloncesto",
+        "url": "/images/calzados/zapato10.png"
+      },
+      {
+        "id": "11",
+        "title": "Zapato de Gamuza",
+        "precio": "95.00",
+        "descripcion": "Zapato de gamuza suave y confortable",
+        "url": "/images/calzados/zapato11.png"
+      },
+      {
+        "id": "12",
+        "title": "Zapatilla de Skate",
+        "precio": "85.00",
+        "descripcion": "Zapatilla resistente para practicar skateboarding",
+        "url": "/images/calzados/zapato12.png"
+      },
+      {
+        "id": "13",
+        "title": "Zapato de Trabajo",
+        "precio": "100.00",
+        "descripcion": "Zapato de seguridad para uso laboral",
+        "url": "/images/calzados/zapato13.png"
+      },
+      {
+        "id": "14",
+        "title": "Zapatilla de Tenis",
+        "precio": "90.00",
+        "descripcion": "Zapatilla diseñada para jugar tenis",
+        "url": "/images/calzados/zapato14.png"
+      },
+      {
+        "id": "15",
+        "title": "Zapato de Playa",
+        "precio": "65.00",
+        "descripcion": "Zapato ligero y resistente al agua para la playa",
+        "url": "/images/calzados/zapato15.png"
+      },
+      {
+        "id": "16",
+        "title": "Zapatilla de Gimnasio",
+        "precio": "80.00",
+        "descripcion": "Zapatilla adecuada para entrenamiento en el gimnasio",
+        "url": "/images/calzados/zapato16.png"
+      },
+      {
+        "id": "17",
+        "title": "Zapato de Senderismo",
+        "precio": "95.00",
+        "descripcion": "Zapato resistente para caminatas en la montaña",
+        "url": "/images/calzados/zapato17.png"
+      },
+      {
+        "id": "18",
+        "title": "Zapatilla de Fútbol",
+        "precio": "70.00",
+        "descripcion": "Zapatilla diseñada para jugar fútbol",
+        "url": "/images/calzados/zapato18.png"
+      },
+      {
+        "id": "19",
+        "title": "Zapato de Piel",
+        "precio": "115.00",
+        "descripcion": "Zapato de piel de alta calidad y duradero",
+        "url": "/images/calzados/zapato19.png"
+      },
+      {
+        "id": "20",
+        "title": "Zapatilla de Correr",
+        "precio": "90.00",
+        "descripcion": "Zapatilla ligera y cómoda para correr",
+        "url": "/images/calzados/zapato20.png"
+      }
+    ]
+}

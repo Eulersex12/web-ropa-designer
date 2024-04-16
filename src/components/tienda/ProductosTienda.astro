@@ -1,6 +1,8 @@
 ---
 import BotonTwo from "../botones/BotonTwo.astro";
-
+import Zapatos from "./Zapatos.jsx";
+import datos from "../../../data.json"
+const { calzadoDama, calzadoHombre } = datos;
 ---
 <article class="w-4/5 mx-auto mt-8 grid grid-cols-3 gap-5">
     <div class="w-full h-32 bg-[rgb(240,238,239)] flex justify-center items-center">
@@ -8,10 +10,10 @@ import BotonTwo from "../botones/BotonTwo.astro";
             <img class="object-contain w-full" src="/images/categorias/zapatos.png" alt="">
         </div>
         <div class="w-7/12 flex flex-col justify-center items-center">
-            <h2 class="font-extrabold uppercase ">Zapatos</h2>
-            <a class="w-full flex items-center justify-center" href="">
+            <h2 class="font-extrabold uppercase ">Calzado</h2>
+            <div class="w-full flex items-center justify-center">
                 <BotonTwo title="mer perra"/>
-            </a>
+            </div>
             
         </div>        
         
@@ -75,3 +77,9 @@ import BotonTwo from "../botones/BotonTwo.astro";
         
     </div>
 </article>
+<div class="w-4/5 m-auto">
+    <div class="w-full">
+        hola mndo
+        <Zapatos damas={calzadoDama} caballeros={calzadoHombre} client:only/>
+    </div>
+</div>
