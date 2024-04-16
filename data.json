@@ -144,143 +144,143 @@
     "calzadoHombre" : [
       {
         "id": "1",
-        "title": "Zapato Elegante",
-        "precio": "100.00",
-        "descripcion": "Zapato de cuero con diseño elegante",
-        "url": "/images/calzados/zapato1.png"
+        "title": "titulo sobre el calzado",
+        "precio": "50",
+        "url": "/images/calzado/zapato(1).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "2",
-        "title": "Zapatilla Deportiva",
-        "precio": "80.00",
-        "descripcion": "Zapatilla deportiva con suela de goma",
-        "url": "/images/calzados/zapato2.png"
+        "title": "titulo sobre el calzado",
+        "precio": "60",
+        "url": "zapato(2).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "3",
-        "title": "Zapato Casual",
-        "precio": "90.00",
-        "descripcion": "Zapato cómodo para uso diario",
-        "url": "/images/calzados/zapato3.png"
+        "title": "titulo sobre el calzado",
+        "precio": "80",
+        "url": "zapato(3).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "4",
-        "title": "Zapatilla de Lona",
-        "precio": "60.00",
-        "descripcion": "Zapatilla de lona transpirable",
-        "url": "/images/calzados/zapato4.png"
+        "title": "titulo sobre el calzado",
+        "precio": "40",
+        "url": "zapato(4).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "5",
-        "title": "Zapato Formal",
-        "precio": "120.00",
-        "descripcion": "Zapato de vestir para ocasiones formales",
-        "url": "/images/calzados/zapato5.png"
+        "title": "titulo sobre el calzado",
+        "precio": "50",
+        "url": "zapato(5).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "6",
-        "title": "Zapatilla de Running",
-        "precio": "95.00",
-        "descripcion": "Zapatilla para correr con tecnología de amortiguación",
-        "url": "/images/calzados/zapato6.png"
+        "title": "titulo sobre el calzado",
+        "precio": "60",
+        "url": "zapato(6).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "7",
-        "title": "Zapato de Cuero",
-        "precio": "110.00",
-        "descripcion": "Zapato de cuero genuino de alta calidad",
-        "url": "/images/calzados/zapato7.png"
+        "title": "titulo sobre el calzado",
+        "precio": "80",
+        "url": "zapato(7).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "8",
-        "title": "Zapatilla Casual",
-        "precio": "70.00",
-        "descripcion": "Zapatilla cómoda para uso informal",
-        "url": "/images/calzados/zapato8.png"
+        "title": "titulo sobre el calzado",
+        "precio": "40",
+        "url": "zapato(8).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "9",
-        "title": "Zapato de Vestir",
-        "precio": "105.00",
-        "descripcion": "Zapato elegante para ocasiones especiales",
-        "url": "/images/calzados/zapato9.png"
+        "title": "titulo sobre el calzado",
+        "precio": "50",
+        "url": "zapato(9).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "10",
-        "title": "Zapatilla de Baloncesto",
-        "precio": "75.00",
-        "descripcion": "Zapatilla diseñada para el juego de baloncesto",
-        "url": "/images/calzados/zapato10.png"
+        "title": "titulo sobre el calzado",
+        "precio": "60",
+        "url": "zapato(10).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "11",
-        "title": "Zapato de Gamuza",
-        "precio": "95.00",
-        "descripcion": "Zapato de gamuza suave y confortable",
-        "url": "/images/calzados/zapato11.png"
+        "title": "titulo sobre el calzado",
+        "precio": "80",
+        "url": "zapato(11).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "12",
-        "title": "Zapatilla de Skate",
-        "precio": "85.00",
-        "descripcion": "Zapatilla resistente para practicar skateboarding",
-        "url": "/images/calzados/zapato12.png"
+        "title": "titulo sobre el calzado",
+        "precio": "40",
+        "url": "zapato(12).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "13",
-        "title": "Zapato de Trabajo",
-        "precio": "100.00",
-        "descripcion": "Zapato de seguridad para uso laboral",
-        "url": "/images/calzados/zapato13.png"
+        "title": "titulo sobre el calzado",
+        "precio": "50",
+        "url": "zapato(13).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "14",
-        "title": "Zapatilla de Tenis",
-        "precio": "90.00",
-        "descripcion": "Zapatilla diseñada para jugar tenis",
-        "url": "/images/calzados/zapato14.png"
+        "title": "titulo sobre el calzado",
+        "precio": "60",
+        "url": "zapato(14).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "15",
-        "title": "Zapato de Playa",
-        "precio": "65.00",
-        "descripcion": "Zapato ligero y resistente al agua para la playa",
-        "url": "/images/calzados/zapato15.png"
+        "title": "titulo sobre el calzado",
+        "precio": "80",
+        "url": "zapato(15).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "16",
-        "title": "Zapatilla de Gimnasio",
-        "precio": "80.00",
-        "descripcion": "Zapatilla adecuada para entrenamiento en el gimnasio",
-        "url": "/images/calzados/zapato16.png"
+        "title": "titulo sobre el calzado",
+        "precio": "40",
+        "url": "zapato(16).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "17",
-        "title": "Zapato de Senderismo",
-        "precio": "95.00",
-        "descripcion": "Zapato resistente para caminatas en la montaña",
-        "url": "/images/calzados/zapato17.png"
+        "title": "titulo sobre el calzado",
+        "precio": "50",
+        "url": "zapato(17).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "18",
-        "title": "Zapatilla de Fútbol",
-        "precio": "70.00",
-        "descripcion": "Zapatilla diseñada para jugar fútbol",
-        "url": "/images/calzados/zapato18.png"
+        "title": "titulo sobre el calzado",
+        "precio": "60",
+        "url": "zapato(18).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "19",
-        "title": "Zapato de Piel",
-        "precio": "115.00",
-        "descripcion": "Zapato de piel de alta calidad y duradero",
-        "url": "/images/calzados/zapato19.png"
+        "title": "titulo sobre el calzado",
+        "precio": "80",
+        "url": "zapato(19).png",
+        "descripcion": "descripcion corta"
       },
       {
         "id": "20",
-        "title": "Zapatilla de Correr",
-        "precio": "90.00",
-        "descripcion": "Zapatilla ligera y cómoda para correr",
-        "url": "/images/calzados/zapato20.png"
+        "title": "titulo sobre el calzado",
+        "precio": "40",
+        "url": "zapato(20).png",
+        "descripcion": "descripcion corta"
       }
     ]
 }
