@@ -1,0 +1,111 @@
+---
+---
+<h1>contacto</h1>
+<div class="slideshow-container">
+    <div class="slides">
+      <div class="slide">
+        <img src="/images/1.png" alt="Imagen 1">
+      </div>
+      <div class="slide">
+        <img src="/images/2.png" alt="Imagen 2">
+      </div>
+      <div class="slide">
+        <img src="/images/3.png" alt="Imagen 3">
+      </div>
+      <div class="slide">
+        <img src="/images/4.png" alt="Imagen 4">
+      </div>
+      <div class="slide">
+        <img src="/images/5.png" alt="Imagen 5">
+      </div>
+      <div class="slide">
+        <img src="/images/6.png" alt="Imagen 5">
+      </div>
+      <div class="slide">
+        <img src="/images/7.png" alt="Imagen 5">
+      </div>
+
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+<style>
+    .slideshow-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease; /* Añadimos transición para un desplazamiento suave */
+}
+
+.slide {
+  width: calc(100% / 3); /* Para mostrar tres imágenes a la vez */
+  flex-shrink: 0; /* Evita que las imágenes se contraigan */
+}
+
+.slide img {
+  width: 100%;
+}
+</style>
+
+<script>
+var slideIndex = 0;
+var slides = document.querySelector('.slides') as HTMLElement; // Realizamos el casting explícito a HTMLElement
+var slideWidth = slides.children[0].clientWidth;
+var totalSlides = slides.children.length;
+
+// Configurar el ancho de cada diapositiva
+Array.from(slides.children).forEach(function (slide) {
+  (slide as HTMLElement).style.width = slideWidth + 'px'; // Realizamos el casting explícito a HTMLElement
+});
+
+showSlides();
+
+function showSlides() {
+  slideIndex++;
+  moveSlides();
+  setTimeout(showSlides, 2000); // Cambia la imagen cada 2 segundos
+}
+
+function moveSlides() {
+  slides.style.transition = 'transform 0.5s ease';
+  slides.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
+  // Reiniciar el carrusel al final
+  if (slideIndex >= totalSlides - 2) {
+    slideIndex = 0;
+    setTimeout(function () {
+      slides.style.transition = 'none';
+      slides.style.transform = `translateX(0)`;
+    }, 500);
+  }
+}
+
+var prevButton = document.querySelector('.prev') as HTMLElement; // Realizamos el casting explícito a HTMLElement
+var nextButton = document.querySelector('.next') as HTMLElement; // Realizamos el casting explícito a HTMLElement
+
+prevButton.addEventListener('click', function () {
+  slideIndex -= 1;
+  if (slideIndex < 0) {
+    slideIndex = totalSlides - 3; // Última imagen visible
+  }
+  moveSlides();
+});
+
+nextButton.addEventListener('click', function () {
+  slideIndex += 1;
+  moveSlides();
+});
+
+// Event listener para hacer clic en las diapositivas individuales
+Array.from(slides.children).forEach(function (slide, index) {
+  (slide as HTMLElement).addEventListener('click', function () { // Realizamos el casting explícito a HTMLElement
+    slideIndex = index;
+    moveSlides();
+  });
+});
+
+</script>

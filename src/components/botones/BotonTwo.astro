@@ -1,11 +1,13 @@
 ---
 interface Props {
 	title: string;
+    color: string;
+    text: string;
 	
 }
 
-const { title } = Astro.props;
+const { title, color, text } = Astro.props;
 ---
-<button class="w-2/5 text-center bg-black text-white">
+<div class=`md:w-3/5 py-1 w-[60%] md:text-center ${color} ${text}`>
     {title}
-</button>
+</div>

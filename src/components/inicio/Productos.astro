@@ -1,76 +1,85 @@
 ---
-import BotonOne from "../botones/BotonOne.astro";
+import BotonOne from "../botones/BotonTwo.astro";
+import Zapatos from "../tienda/Zapatos";
+import data from "../../../data.json";
+
+const { calzadoHombre, calzadoDama } = data;
 
 ---
 <article class="w-4/5 mx-auto mt-8 grid grid-cols-3 gap-5">
-    <div class="w-full h-32 bg-[rgb(240,238,239)] flex justify-center items-center">
+    <div id="slider" class="w-full h-32 bg-[rgb(240,238,239)] flex justify-center items-center">
         <div class="w-5/12">
             <img class="object-contain w-full" src="/images/categorias/zapatos.png" alt="">
         </div>
         <div class="w-7/12 flex flex-col justify-center items-center">
             <h2 class="font-extrabold uppercase ">Zapatos</h2>
-            <a class="w-full flex items-center justify-center" href="/tienda">
-                <BotonOne title="Ver Más"/>
-            </a>
+            <div id="zapatos" class="w-full flex justify-center items-center">
+                <BotonOne title="Ver Más" color="bg-black hover:bg-white rounded-xl" text="text-white hover:text-black hover:font-bold " />
+            </div>
         </div>        
         
     </div>
-    <div class="w-full h-32 bg-[rgb(240,238,239)] flex justify-center items-center">
+    <div id="slider" class="w-full h-32 bg-[rgb(240,238,239)] flex justify-center items-center">
         <div class="w-5/12 overflow-hidden">
             <img class="w-[80%] object-cover " src="/images/categorias/ropa-hombre.png" alt="">
         </div>
         <div class="w-7/12 flex flex-col justify-center items-center">
             <h2 class="font-extrabold uppercase ">caballeros</h2> 
-            <a class="w-full flex items-center justify-center" href="/tienda">
-                <BotonOne title="Ver Más"/>
-            </a>  
+            <div id="caballeros" class="w-full flex justify-center items-center">
+                <BotonOne title="Ver Más" color="bg-black hover:bg-white rounded-xl" text="text-white hover:text-black hover:font-bold " />
+            </div>
         </div>
     </div>
-    <div class="w-full h-32 bg-[rgb(240,238,239)] overflow-hidden flex justify-center items-center">
+    <div id="slider" class="w-full h-32 bg-[rgb(240,238,239)] overflow-hidden flex justify-center items-center">
         <div class="w-5/12">
             <img class="object-cover w-[80%]" src="/images/categorias/mujer.png" alt="">
         </div>
         <div class="w-7/12 flex flex-col justify-center items-center">
             <h2 class="font-extrabold uppercase ">Damas</h2>
-            <a class="w-full flex items-center justify-center" href="/tienda">
-                <BotonOne title="Ver Más"/>
-            </a>
+            <div id="damas" class="w-full flex justify-center items-center">
+                <BotonOne title="Ver Más" color="bg-black hover:bg-white rounded-xl" text="text-white hover:text-black hover:font-bold " />
+            </div>
         </div>
         
     </div>
-    <div class="w-full h-32 bg-[rgb(240,238,239)] overflow-hidden flex justify-center items-center">
+    <div id="slider" class="w-full h-32 bg-[rgb(240,238,239)] overflow-hidden flex justify-center items-center">
         <div class="w-5/12">
             <img class="object-cover w-[80%]" src="/images/categorias/sombrero.png" alt="">
         </div>
         <div class="w-7/12 flex flex-col justify-center items-center">
             <h2 class="font-extrabold uppercase ">sombreros</h2>
-            <a class="w-full flex items-center justify-center" href="/tienda">
-                <BotonOne title="Ver Más"/>
-            </a>
+            <div id="sombreros" class="w-full flex justify-center items-center">
+                <BotonOne title="Ver Más" color="bg-black hover:bg-white rounded-xl" text="text-white hover:text-black hover:font-bold " />
+            </div>
         </div>        
         
     </div>
-    <div class="w-full h-32 overflow-hidden bg-[rgb(240,238,239)] flex justify-center items-center">
+    <div id="slider" class="w-full h-32 overflow-hidden bg-[rgb(240,238,239)] flex justify-center items-center">
         <div class="w-5/12">
             <img class="object-contain w-[75%]" src="/images/f3.png" alt="">
         </div>
         <div class="w-7/12 flex flex-col justify-center items-center">
             <h2 class="font-extrabold uppercase ">Bolsos</h2>   
-            <a class="w-full flex items-center justify-center" href="/tienda">
-                <BotonOne title="Ver Más"/>
-            </a>
+            <div id="bolsos" class="w-full flex justify-center items-center">
+                <BotonOne title="Ver Más" color="bg-black hover:bg-white rounded-xl" text="text-white hover:text-black hover:font-bold " />
+            </div>
         </div>
     </div>
-    <div class="w-full h-32 overflow-hidden bg-[rgb(240,238,239)] flex justify-center items-center">
+    <div id="slider" class="w-full h-32 overflow-hidden bg-[rgb(240,238,239)] flex justify-center items-center">
         <div class="w-5/12">
             <img class="object-contain w-[100%]" src="/images/categorias/adolescentes.png" alt="">
         </div>
         <div class="w-7/12 flex flex-col justify-center items-center">
             <h2 class="font-extrabold uppercase ">adolecente</h2>
-            <a class="w-full flex items-center justify-center" href="/tienda">
-                <BotonOne title="Ver Más"/>
-            </a>
+            <div id="#adolecente" class="w-full flex justify-center items-center">
+                <BotonOne title="Ver Más" color="bg-black hover:bg-white rounded-xl" text="text-white hover:text-black hover:font-bold " />
+            </div>
         </div>
         
     </div>
 </article>
+<main>
+    <div id="zapatos" class="w-4/5 mx-auto">
+        <Zapatos damas={calzadoDama} caballeros={calzadoHombre}/>
+    </div>
+</main>

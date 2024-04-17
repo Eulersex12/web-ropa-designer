@@ -5,7 +5,6 @@ import { useState } from "react"
 const Zapatos = ( { damas, caballeros }) => {
   return (
     <div>
-      este es mi componente zapato
       <h1>fama2</h1>
       <img src="/images/calzados/taco1.png" alt="" />
       <div className="w-full grid grid-cols-4 ">

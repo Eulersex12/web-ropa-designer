@@ -1,11 +1,13 @@
 ---
 interface Props {
 	title: string;
+    color: string;
+    text: string;
 	
 }
 
-const { title } = Astro.props;
+const { title, color, text } = Astro.props;
 ---
-<button class="md:w-2/5 w-[60%] md:text-center bg-black text-white">
+<button class=`md:w-2/5 w-[60%] md:text-center ${color} ${text}`>
     <a href="#tienda">{title}</a>
 </button>

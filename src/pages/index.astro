@@ -1,4 +1,7 @@
 ---
+import Acerca from '../components/Acerca.astro';
+import Contacto from '../components/Contacto.astro';
+import Servicios from '../components/Servicios.astro';
 import Portada from '../components/inicio/Portada.astro';
 import Productos from '../components/inicio/Productos.astro';
 import Layout from '../layouts/Layout.astro';
@@ -7,12 +10,25 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="">
 	<main class="w-full flex flex-col justify-center">
-		<div id="acerca" class="w-full h-[650px]"></div>
-		<div id="servicios" class="w-full h-[650px]">servicios</div>
-		<div id="tienda" class="w-full h-[650px]">
-			<Productos />
+		<article id="acerca" class="w-full h-screen bg-orange-500 pt-5 flex justify-center items-center">
+			<div class="w-2/4">
+				<Acerca />
+			</div>
+			
+		</article>
+		<div id="servicios" class="w-full h-screen pt-24">
+			<div class="w-4/5 h-full mx-auto flex justify-center items-center"><Servicios /></div>
 		</div>
-		<div id="contacto" class="w-full h-[650px]">contacto</div>
+		<div id="tienda" class="w-full h-auto pt-24">
+			<div>
+				<Productos />
+			</div>
+			
+		</div>
+		<div id="contacto" class="w-full h-screen pt-24">
+			contacto
+			<Contacto />
+		</div>
 		
 	</main>
 </Layout>
